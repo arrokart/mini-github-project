@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to My Mini Project</h1>
+            <p>A simple interactive web application</p>
+        </header>
+
+        <main>
+            <section class="card">
+                <h2>Get Started</h2>
+                <p>Click the button below to see some interactivity!</p>
+                <button id="myButton" class="btn">Click Me</button>
+                <p id="message" class="hidden">Hello! You clicked the button!</p>
+            </section>
+
+            <section class="card">
+                <h2>Counter</h2>
+                <div class="counter">
+                    <button id="decreaseBtn" class="btn-small">-</button>
+                    <span id="count">0</span>
+                    <button id="increaseBtn" class="btn-small">+</button>
+                </div>
+                <button id="resetBtn" class="btn-small">Reset</button>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 My Mini Project. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
